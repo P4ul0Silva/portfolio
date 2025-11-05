@@ -83,7 +83,7 @@ export const Contacts = () => {
                   target="_blank"
                   href={`mailto=${userData.emailUser}`}
                   onClick={() =>
-                    (window.location.href = "mailto:nekelpatrick.com")
+                    {`mailto=${userData.emailUser}`}
                   }
                 >
                   Send me an email
